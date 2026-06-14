@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason Dsouza | GIS Specialist</title>
+    <meta name="description"
+        content="Portfolio of Jason Dsouza, a Geologist and GIS Specialist building spatial data pipelines and AI-powered geospatial projects.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Mono&display=swap"
+        rel="stylesheet">
+
+    <!-- Leaflet CSS for Map Background -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Map -->
+    <div id="map-background"></div>
+    <div class="overlay"></div>
+
+    <nav>
+        <div class="logo">J<span>.Geo</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Journey</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="mono-text highlight">const role = "Geologist & GIS Specialist";</p>
+                <h1>Geologist &<br><span class="gradient-text">GIS Specialist</span></h1>
+                <p class="subtitle">Turning spatial data into interactive, insightful web experiences. I build spatial
+                    data pipelines, deploy cloud-based GIS infrastructure, and deliver analysis-ready data for
+                    AI-powered projects.</p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Get in Touch</a>
+                    <a href="Jason_Dsouza_CV_11-06-26.pdf" download class="btn secondary" style="border-color: var(--accent-primary); color: var(--accent-primary);">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="icon-wrapper">🗺️</div>
+                    <h3>GIS & Mapping</h3>
+                    <p>QGIS, ArcGIS, GeoServer, Google Earth Engine, Streamlit, Folium. Deploying robust spatial
+                        services.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="icon-wrapper">⚙️</div>
+                    <h3>Spatial Analysis</h3>
+                    <p>Python (GeoPandas, Shapely, Rasterio, GDAL), PostGIS, PostgreSQL. Building scalable data
+                        processing pipelines.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="icon-wrapper">💻</div>
+                    <h3>Software & AI</h3>
+                    <p>Python, Selenium, REST APIs, Agentic AI (Claude, Gemini). Automating workflows and data
+                        acquisition.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="icon-wrapper">☁️</div>
+                    <h3>Cloud & Data</h3>
+                    <p>AWS (EC2, S3), Docker, WMS/WFS, MongoDB, Supabase. Managing cloud-based GIS infrastructure.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Featured Work</h2>
+            <div class="skills-grid">
+                <a href="https://www.linkedin.com/posts/jason-dsouza23_augmented-reality-for-geoscience-education-activity-7368576277806538752-Yaep?utm_source=share&utm_medium=member_desktop&rcm=ACoAAClpZz8BGukF8_kZqOW-QmiGWA2RKd4XQI8"
+                    target="_blank" rel="noopener noreferrer" class="skill-card" style="border-top: 3px solid var(--accent-primary)">
+                    <h3 style="margin-top: 0;">GeoBox-AR</h3>
+                    <p class="mono-text" style="color: var(--accent-primary); margin-bottom: 1rem; font-size: 0.8rem;">
+                        Python | OpenCV | Hardware</p>
+                    <p>A low-cost Augmented Reality Sandbox for geoscience education, using computer vision to translate
+                        physical terrain into digital overlays.</p>
+                </a>
+                <a href="https://www.linkedin.com/posts/jason-dsouza23_gis-geospatialworld-geospatial-activity-7339970120632393728-fFMA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAClpZz8BGukF8_kZqOW-QmiGWA2RKd4XQI8"
+                    target="_blank" rel="noopener noreferrer" class="skill-card" style="border-top: 3px solid var(--accent-secondary)">
+                    <h3 style="margin-top: 0;">Automatic Georeferencer</h3>
+                    <p class="mono-text"
+                        style="color: var(--accent-secondary); margin-bottom: 1rem; font-size: 0.8rem;">Python | OpenCV
+                        | Rasterio</p>
+                    <p>Offline, multi-threaded tool to automatically georeference hundreds of Toposheets in minutes
+                        using parallel processing.</p>
+                </a>
+                <a href="https://ai-petrographer.streamlit.app/" target="_blank" rel="noopener noreferrer" class="skill-card"
+                    style="border-top: 3px solid var(--accent-primary)">
+                    <h3 style="margin-top: 0;">A.I. Petrographer</h3>
+                    <p class="mono-text" style="color: var(--accent-primary); margin-bottom: 1rem; font-size: 0.8rem;">
+                        Python | Streamlit | Gemini API</p>
+                    <p>Web-app providing A.I. insights about mineralogy and texture from uploaded rock thin-section
+                        images.</p>
+                </a>
+                <a href="https://gistools.streamlit.app/" target="_blank" rel="noopener noreferrer" class="skill-card"
+                    style="border-top: 3px solid var(--accent-secondary)">
+                    <h3 style="margin-top: 0;">GIS Tools Web-App</h3>
+                    <p class="mono-text"
+                        style="color: var(--accent-secondary); margin-bottom: 1rem; font-size: 0.8rem;">Python |
+                        Streamlit | Folium</p>
+                    <p>On-the-go spatial visualization app with drag-and-drop support for vector files and WMS layer
+                        plotting.</p>
+                </a>
+                <a href="https://gistoolkit.hashnode.dev/" target="_blank" rel="noopener noreferrer" class="skill-card"
+                    style="border-top: 3px solid var(--accent-primary)">
+                    <h3 style="margin-top: 0;">GIS Toolkit Blog</h3>
+                    <p class="mono-text" style="color: var(--accent-primary); margin-bottom: 1rem; font-size: 0.8rem;">
+                        Python | GIS | Blog Writing</p>
+                    <p>A Blog written by me on GIS, mapping and geospatial data analysis. Made for Geospatial
+                        enthusiasts and professionals.</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="experience" class="timeline-section">
+            <h2 class="section-title">Journey Map</h2>
+            <div class="subway-timeline">
+                <div class="subway-line"></div>
+                
+                <div class="subway-stop">
+                    <div class="stop-marker"></div>
+                    <div class="stop-content">
+                        <span class="stop-date">June 2024 - April 2026</span>
+                        <h3>M.Sc. in Geology</h3>
+                        <p class="stop-location">St. Xavier's College, Mumbai</p>
+                        <p>Specialization in GIS, remote sensing, and advanced geoscience. Dissertation: GeoBox-AR.</p>
+                    </div>
+                </div>
+
+                <div class="subway-stop">
+                    <div class="stop-marker"></div>
+                    <div class="stop-content">
+                        <span class="stop-date">May 2023 - Jan 2025</span>
+                        <h3>Digital Earth Scientist (GIS)</h3>
+                        <p class="stop-location">RadiXplore</p>
+                        <p>Built spatial data pipelines, deployed AWS GeoServer infrastructure, and automated geodata acquisition.</p>
+                    </div>
+                </div>
+
+                <div class="subway-stop">
+                    <div class="stop-marker"></div>
+                    <div class="stop-content">
+                        <span class="stop-date">Aug 2020 - June 2023</span>
+                        <h3>B.Sc. in Geology</h3>
+                        <p class="stop-location">St. Xavier's College, Mumbai</p>
+                        <p>Core geological sciences, setting the foundation for spatial analysis and mapping.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-info">
+                            <h3>Location</h3>
+                            <p>Mumbai, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-info">
+                            <h3>Email</h3>
+                            <a href="mailto:jasondsouza237@gmail.com" class="contact-link">jasondsouza237@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-info">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/jason-dsouza23/" target="_blank" rel="noopener noreferrer" class="contact-link">linkedin.com/in/jason-dsouza23</a>
+                        </div>
+                    </div>
+                    <div class="contact-item" style="margin-top: 1.5rem; justify-content: center; width: 100%;">
+                        <a href="Jason_Dsouza_CV_11-06-26.pdf" download class="btn primary" style="width: 100%; text-align: center; box-shadow: none;">Download Full CV (PDF)</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
