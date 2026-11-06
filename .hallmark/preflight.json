@@ -1,0 +1,22 @@
+{
+  "scanned": "2026-11-06",
+  "findings": {
+    "framework": "static HTML, index.html:1",
+    "fonts": "system sans, style.css:1",
+    "palette": "teal neutrals, style.css:1",
+    "motion": "none",
+    "wiring": "year hook, script.js:2"
+  },
+  "preserve": [
+    "all content facts",
+    "15 link destinations",
+    "section ids",
+    "script.js"
+  ],
+  "introduce": [
+    "Ultraviolet lavender",
+    "Outfit and Onest",
+    "poster hero",
+    "project index"
+  ]
+}

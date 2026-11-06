@@ -1,0 +1,33 @@
+[
+  {
+    "mode": "redesign",
+    "depth": "full",
+    "scope": "page",
+    "theme": "terminal",
+    "shape": "Index-First",
+    "hero": "Poster",
+    "nav": "slab",
+    "footer": "letter close",
+    "imagery": "none",
+    "photos": [],
+    "entry": "index.html",
+    "signature": "Jason in Martian Mono",
+    "waived": [
+      "71 parallel title column",
+      "77 preserved brief introduction"
+    ],
+    "prompt": "redesign index.html with Ultraviolet",
+    "sections": [
+      "hero",
+      "about",
+      "projects",
+      "experience",
+      "skills",
+      "education",
+      "contact",
+      "footer"
+    ],
+    "axes": "light/geometric-sans/cool",
+    "fingerprint": "poster/index/rows/phosphor/typographic/contact"
+  }
+]
